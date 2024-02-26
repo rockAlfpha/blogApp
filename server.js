@@ -11,7 +11,3 @@ app.get('/', (req, res)=>{
 app.use('/articles', articleRouter);
 
 app.listen(3000);
-
-const App(){
-    console.log("Hey there");
-}
